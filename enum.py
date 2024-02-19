@@ -1,10 +1,10 @@
 import enum
 
 
-class Type(enum.Enum):
+class Type(enum.enum):
     FINANCIAL = "FINANCIAL"
     SPIRITUAL = "SPIRITUAL"
-    BUSINESS =  "BUSINESS"
+    BUSINESS  =  "BUSINESS"
     TECHNICAL = "TECHNICAL"
     EDUCATION = "EDUCATION"
 

@@ -1,4 +1,8 @@
 from Person import Person
+from Problem import Problem
+
 
 def testPersonCanAddProblems():
-    assert addProblem("wirdDreams",Type.SPIRITUAL) == 1
+    problem = Problem().SPIRITUAL
+    problem.addProblems("wirdDreams")
+    assert  problem.recounted_problems() == 1
